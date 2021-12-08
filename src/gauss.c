@@ -7,7 +7,9 @@
 int eliminate(Matrix *mat, Matrix *b){
     /**
   	 * Tutaj należy umieścić właściwą implemntację.
+		 Mock of the implementation ...
 		 */
+		
 
 		return 0;
 }
