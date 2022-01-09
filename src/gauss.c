@@ -1,6 +1,7 @@
 #include "gauss.h"
 #include <math.h>
 
+
 void zamien(double** a, double** b)
 {
 	double* c = *a;
@@ -45,4 +46,3 @@ int eliminate(Matrix *mat, Matrix *b){
 	}
 	return 0;
 }
-
