@@ -15,10 +15,10 @@ void chooseElement(Matrix* mat, Matrix* b, int i)
 	int nWier = i;
 	for (i;i<mat->r;i++)
 	{
-		if(fabs(mat->data[i][nrWier])>max)
+		if(fabs(mat->data[i][nWier])>max)
 		{
 			nrMax = i;
-			max = fabs(mat->data[i][nrWier]);
+			max = fabs(mat->data[i][nWier]);
 		}
 	}
 
